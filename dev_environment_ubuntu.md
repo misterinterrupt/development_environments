@@ -1,14 +1,14 @@
-# update package manager
+### update package manager
 `sudo apt update`
 
-# install build stuff that lots of things use like e.g. gnu make
+### install build stuff that lots of things use like e.g. gnu make
 `sudo apt-get install build-essential`
 
 
-# install atom from snap store
-# install vs code from snap store
+### install atom from snap store
+### install vs code from snap store
 
-#install docker-repositories
+### install docker-repositories
 `sudo apt-get install apt-transport-https ca-certificates curl software-properties-common`
 
 `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
@@ -19,21 +19,21 @@
 
 `sudo apt-get update`
 
-#install docker-ce
+### install docker-ce
 `sudo apt-get install docker-ce docker-ce-cli containerd.io`
 
-#make docker cli usable without sudo every time (hacker may kill you for that tho)
-`sudo groupadd docker
-sudo usermod -a -G docker $USER`
+### make docker cli usable without sudo every time (hacker may kill you for that tho)
+`sudo groupadd docker`
+`sudo usermod -a -G docker $USER`
 
 
-#install docker-compose
+### install docker-compose
 `sudo apt-get install docker-compose`
 
 
-#install n to $HOME/n (defaults to this)
+### install n to $HOME/n (defaults to this)
 `curl -L https://git.io/n-install | bash`
 `. /home/interrupt/.bashrc`
 
-#install npm
+### install npm
 `curl -O -L https://npmjs.org/install.sh | bash`
